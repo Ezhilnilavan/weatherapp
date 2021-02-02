@@ -22,8 +22,8 @@ function WeatherPlate(props) {
 
     return (
         <div className={clickable} onClick={(e)=>{ postData(e.target, props.data)}}>
-            <img src={props.data.icon} className="plate-icon"/>
             <p className="mb-0"> {props.data.date.dayShort} </p> <i className="mdi mdi-weather-cloudy"></i>
+            <img src={props.data.icon} className="plate-icon"/>
             <p className="mb-0"> {props.data.min}° - {props.data.max}° </p>
         </div>
     )
