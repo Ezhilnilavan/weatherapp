@@ -15,12 +15,11 @@ Install application and dependencies
 
 > Create 'dist' folder under root folder( Webpack distination folder path )
 
-> Update API keys in src/redux/configs.js
+Update API keys in src/redux/configs.js
 
-export const CAGE_API_PATH = 'https://api.opencagedata.com/geocode/v1/json?key=APIKEY';
+> export const CAGE_API_PATH = 'https://api.opencagedata.com/geocode/v1/json?key=APIKEY';
 
-export const OPEN_WEATHER_API_PATH = 'https://api.openweathermap.org/data/2.5/forecast?appid=APIKEY&units=imperial';
-
+> export const OPEN_WEATHER_API_PATH = 'https://api.openweathermap.org/data/2.5/forecast?appid=APIKEY&units=imperial';
 
 Build and Start webpack dev server
 
